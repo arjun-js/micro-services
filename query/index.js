@@ -43,6 +43,7 @@ function handleEvent (type, data){
 }
 
 app.get('/posts', (req, res)=>{
+    console.log('here in query00');
    res.send(posts);
 });
 
